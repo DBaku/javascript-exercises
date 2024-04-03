@@ -1,5 +1,5 @@
 /**
- * Schreibe je eine Funtion add, substract, multiply, divide, die die
+ * Schreibe je eine Funktion add, substract, multiply, divide, die die
  * jeweilige Grundrechenart auf die beiden übergebenen Parameter A und B
  * anwendet. Verwende Arrow-Funktionen.
  */
@@ -18,13 +18,12 @@
  * der Freigrenze von 17.500 EUR (für die Steuerjahre 2003-2019) bzw. 22.000 EUR
  * (für die Steuerjahre ab 2020) soll die Kleinunternehmerregelung angewendet
  * und keine Umsatzsteuer berechnet werden. Der Rückgabewert ist dann 0.
- * 
- * @param {*} umsatz 
- * @param {*} steuerjahr 
- * @returns 
+ *
+ * @param {*} umsatz
+ * @param {*} steuerjahr
+ * @returns
  */
-export function umsatzsteuer (umsatz, steuerjahr = 2024) {
-    
+export function umsatzsteuer(umsatz, steuerjahr = 2024) {
     // ...
 }
 
@@ -38,15 +37,14 @@ export function umsatzsteuer (umsatz, steuerjahr = 2024) {
  * Für die Berechnung eines Kreises wird der Radius (radius) benötigt.
  * Für die Berechnung eines Dreieckes sowie eines Rechteckes werden die Länge
  * der Grundseite (base) sowie die Höhe (height) benötigt.
- * 
- * @param {*} shape 
- * @param {*} params 
- * @returns 
+ *
+ * @param {*} shape
+ * @param {*} params
+ * @returns
  */
 export const area = (shape, params) => {
-    
     // ...
-}
+};
 
 // loops
 
@@ -56,23 +54,21 @@ export const area = (shape, params) => {
  * erzeugt.
  * Die Karten werden als Array bestehend aus Farbe und Wert dargestellt und alle
  * Karten in einem Array gesammelt zurückgegeben.
- * 
- * @returns 
+ *
+ * @returns
  */
-export function deckOfCards () {
-    
+export function deckOfCards() {
     // ...
 }
 
 /**
  * Schreibe eine Funktion, die die ersten N Antworten für das FizzBuzz-Spiel
  * erzeugt und auf der Konsole ausgibt.
- * 
- * @param {*} n 
+ *
+ * @param {*} n
  * @see https://de.wikipedia.org/wiki/Fizz_buzz
  */
-export function fizzbuzz (n) {
-    
+export function fizzbuzz(n) {
     // ...
 }
 
@@ -80,12 +76,11 @@ export function fizzbuzz (n) {
 
 /**
  * Schreibe eine rekursive Funktion, die die N-te Fibonacci-Zahl berechnet.
- * 
- * @param {*} n 
+ *
+ * @param {*} n
  * @returns n-th Fibonacci number
  * @see https://de.wikipedia.org/wiki/Fibonacci-Folge
  */
-export function fibonacci (n) {
-    
+export function fibonacci(n) {
     // ...
 }

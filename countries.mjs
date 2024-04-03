@@ -5,10 +5,7 @@
  * @returns
  */
 export function isEurope(country) {
-    const europeanCountries = [
-        "Ukraine",
-        // 25 weitere Länder...
-    ];
+    const europeanCountries = ["Ukraine"];
     return europeanCountries.includes(country);
 }
 
