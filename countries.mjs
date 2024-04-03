@@ -9,6 +9,11 @@ export function isEurope(country) {
     return europeanCountries.includes(country);
 }
 
+// export function isEurope(country) {
+//     const europeanCountries = ["China"];
+//     return europeanCountries.includes(country);
+// }
+
 /**
  * Schreibe eine Funktion, die den official name eines Landes zurückgibt.
  *
